@@ -118,71 +118,71 @@ $(document).ready(function() {
      var death_rate_US = {
     equation: function (second,millisecond) {return 4 * (second + millisecond / 100);},  
     sentence: " people have died in the US.",
-    did: "A country’s population is stable when the fertility rate is equal to replacement rates. These vary by country but globally work out to around 2.1 children per woman. Learn more here:",
+    did: "Did you know that a country’s population is stable when the fertility rate is equal to replacement rates. These vary by country but globally work out to around 2.1 children per woman.",
     link: "http://brilliantmaps.com/fertility-rates/",
     };
 
     var death_rate_canada = {
     equation:function (second,millisecond) {return 1.8 * (second + millisecond / 100);},  
-    sentence:" have died in the Canada.",
-    did: "Suicide is a major cause of premature and preventable death. It is estimated, that in 2009 alone, there were about 100,000 years of potential life lost to Canadians under the age of 75 as a result of suicides. Learn more here:",
+    sentence:" people have died in the Canada.",
+    did: "Did you know thatSuicide is a major cause of premature and preventable death. It is estimated, that in 2009 alone, there were about 100,000 years of potential life lost to Canadians under the age of 75 as a result of suicides.",
     link: "http://www.statcan.gc.ca/pub/82-624-x/2012001/article/11696-eng.htm",
     };
 
     var birth_rate = {
     equation: function (second,millisecond) {return 2 * (second + millisecond / 100);},
     sentence:  " have been born in the US.",
-    did: "Did you know the increase in U.S. births since 1970 has been driven entirely by births to immigrant mothers. Learn more here:", 
+    did: "Did you know the increase in U.S. births since 1970 has been driven entirely by births to immigrant mothers. Fertility rates in the United States have fallen since 1990 among all major racial/ethnic groups. ", 
     link: "http://www.pewresearch.org/fact-tank/2016/10/26/5-facts-about-immigrant-mothers-and-u-s-fertility-trends/",
     };
 
     var oil_consumption = {
     equation:function (second,millisecond) {return 1110 * (second + millisecond / 100);}, 
-    sentence:" barrels of oil has been consumed.",
-    did: "In the next five years, non-OECD Asia will remain the major source of oil demand growth, with volumes increasing from 23.7 mb/d in 2015 to 28.9 mb/d in 2021. Learn more here:", 
+    sentence:" barrels of oil have been consumed.",
+    did: "Did you know that the US has the 10th largest oil reserve in the world. Venezuela has the largest, with 298.35 billion barrels compared to the US’ 33 billion barrels.", 
     link: "https://www.iea.org/about/faqs/oil/",
     };
 
     var tortoise_movement = {
     equation: function (second,millisecond) {return 0.075 * (second + millisecond / 100);}, 
-    sentence: ", a turtle has moved in meters.",
-    did: "Some turtles lay eggs in the sand and leave them to hatch on their own. The young turtles make their way to the top of the sand and scramble to the water while trying to avoid predators. Learn more here:",
+    sentence: " m is the amount of distance an average turtle has travesed.",
+    did: "Did you know that some turtles lay eggs in the sand and leave them to hatch on their own. The young turtles make their way to the top of the sand and scramble to the water while trying to avoid predators.",
     link: "http://www.sciencekids.co.nz/sciencefacts/animals/turtle.html" ,
     };
 
     var elephant_heartbeats = {
     equation: function (second,millisecond) {return 0.5 * (second + millisecond / 100);},
-    sentence: " an elephant's heart has beated.",
-    did: "Elephants have a highly developed brain and the largest of all the land mammals. The brain is 3 or 4 times larger than that of humans although smaller as a proportion of body weight. Learn more here:",
+    sentence: " is the number of times an elephant's heart has beated.",
+    did: "Did you know that elephants have a highly developed brain and the largest of all the land mammals. The brain is 3 or 4 times larger than that of humans although smaller as a proportion of body weight.",
     link: "http://www.happyelephantcontest.com/fun-facts/",
     };
 
     var hunger_deaths = {
     equation: function (second,millisecond) {return 0.25 * (second + millisecond / 100);},
-    sentence: " people has died.",
-    did: "795 million people – or one in nine people in the world – do not have enough to eat. Nearly half of all deaths in children under 5 are attributable to under-nutrition. Learn more here:",
+    sentence: " people have died in the world.",
+    did: "Did you know that 795 million people – or one in nine people in the world – do not have enough to eat. Nearly half of all deaths in children under 5 are attributable to under-nutrition.",
     link: "http://www.thp.org/knowledge-center/know-your-world-facts-about-hunger-poverty/",
     };
 
     var starfish = {
     equation:function (second,millisecond) {return 0.25 * (second + millisecond / 100);},
-    sentence: ", a starfish has moved in distance.",
-    did: "Starfish are not actually a fish. They're actually related to sand dollars and sea urchins.",
+    sentence: " m is how much an average starfish has moved.",
+    did: "Did you know that starfish have no brains and no blood. Their nervous system is spread through their arms and their “blood” is actually filtered sea water.Beyond their distinctive shape, sea stars are famous for their ability to regenerate limbs, and in some cases, entire bodies. ",
     link: "http://awesomeocean.com/2014/11/21/9-cool-facts-starfish/",
     };
 
     var cancer_deaths = {
     equation: function (second,millisecond) {return 0.20 * (second + millisecond / 100);}, 
     sentence: " people have died from cancer.",
-    did: "Sleep deprivation (defined as getting less than 6 hours of sleep per day), increases risk of colon cancer. Learn more here: ",
+    did: "Did you know that every hour of every day, an average of 21 Canadians will be diagnosed with cancer and nine will die from the disease. Almost half of all Canadians (41 per cent of females and 46 per cent of males) will develop cancer in their lifetimes.",
     link: "https://thetruthaboutcancer.com/17-cancer-facts-every-person-needs-know/",
     };
 
 
     var woodpecker = {
     equation: function (second,millisecond) {return 20 * (second + millisecond / 100);}, 
-    sentence: ", a humming bird has hammered a tree times.",
-    did: "The woodpecker's strong, pointed beak acts as both a chisel and a crowbar to remove bark and find hiding insects. It has a very long tongue, up to four inches in some species - with a glue-like substance on the tip for catching insects.",
+    sentence: " is the average amount of times a woodpecker bird has hammered a tree.",
+    did: "Did you know that the woodpecker's strong, pointed beak acts as both a chisel and a crowbar to remove bark and find hiding insects. It has a very long tongue, up to four inches in some species - with a glue-like substance on the tip for catching insects.",
     link: "http://www.defenders.org/woodpeckers/basic-facts",
     };
 
