@@ -218,6 +218,7 @@ $(document).ready(function() {
             $("#time-display").text(secondstring + millisecond.toString() + "ms");
             var position = Math.floor(Math.random()*facts.length);
             $("#fact").text(defaultSentence +facts[position].equation(second, millisecond)+ facts[position].sentence + "\n" + facts[position].did);
+            $("#fact").attr("href", facts[position].link);
         }
     });
 
