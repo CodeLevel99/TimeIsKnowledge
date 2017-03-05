@@ -1,7 +1,4 @@
 var t;
-var x;
-
-
 
 var defaultSentence = "In this time, " + parseInt(t) + " seconds, ";
 
@@ -109,5 +106,5 @@ function science(equation, sentence, did, link){
 
 function changetext(){
 	console.log("name");
-    document.getElementById("thing").innerHTML = fact[0].did;
+    document.getElementById("fact").innerHTML = fact[0].did;
 }
