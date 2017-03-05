@@ -195,6 +195,7 @@ $(document).ready(function() {
    
 
     $("#fact-container").hide();
+    $("time-display").hide();
 
     $("#clock-button").click(function() {
         if(clicked == false)
@@ -214,6 +215,7 @@ $(document).ready(function() {
             setTimeout(function() {
                 $("#fact-container").show(1200);
             }, 2000);
+            $("#time-display").text(secondstring + millisecond.toString() + "ms");
             var position = Math.floor(Math.random()*facts.length);
             $("#fact").text(defaultSentence +facts[position].equation(second, millisecond)+ facts[position].sentence + "\n" + facts[position].did);
         }
@@ -226,7 +228,7 @@ $(document).ready(function() {
         secondstring = "00s ";
         $("#fact-container").hide(1200);
         setTimeout(function() {
-                $("#clock").fadeIn(1200);;
+                $("#clock").fadeIn(1200);
             }, 2000);
         $("#clock-button").text("00s 00ms");
     });

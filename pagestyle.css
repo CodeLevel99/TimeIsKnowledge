@@ -5,6 +5,15 @@ body {
 	background-position: center -30%;
 }
 
+#time-display {
+	position: relative;
+	margin: auto;
+	text-align: center;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 40px;
+	color: white;
+}
+
 #clock-button {
 	position: relative;
 	background: none;
