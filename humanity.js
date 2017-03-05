@@ -43,7 +43,7 @@ var oil_consumption = {
 
 var tortoise_movement = {
     equation: 0.075 * time, 
-    sentence: defaultSentence + ", a turtle has mo ", meters.",
+    sentence: defaultSentence + ", a turtle has m",
     did: "Some turtles lay eggs in the sand and leave them to hatch on their own. The young turtles make their way to the top of the sand and scramble to the water while trying to avoid predators. Learn more here:",
     link: "http://www.sciencekids.co.nz/sciencefacts/animals/turtle.html" ,
 };

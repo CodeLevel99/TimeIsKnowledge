@@ -41,7 +41,7 @@ $(document).ready(function() {
     var whiteBloodCell = {
     equation: function (second, millisecond) {return 10000000000 * (second + millisecond/100) / 60 / 60/ 24; },
     sentence: " white blood cells have been newly created in your body.",
-    did:"Did you know that almost 1 percent of the body’s red cells are generated each day. Both the red and white blood cells arise through a series of complex, gradual, and successive transformations from primitive stem cells,",
+    did:"Did you know that almost 1 percent of the body\’s red cells are generated each day. Both the red and white blood cells arise through a series of complex, gradual, and successive transformations from primitive stem cells,",
     link:"https://www.britannica.com/science/blood-cell-formation",
     };
 
@@ -55,7 +55,7 @@ $(document).ready(function() {
     var semenProduced = {
     equation:function (second, millisecond) {return 60000*(second + millisecond/100) /60;},
     sentence: " sperm has been produced in the average adult males body.",
-    did:"Did you know that a teaspoon of ejaculated semen may not sound like much, but swimming in that teaspoon are usually roughly 250 million sperm, the tadpole-like cells that contain a man’s genetic heritage. But each individual sperm cell takes about three months to grow.",
+    did:"Did you know that a teaspoon of ejaculated semen may not sound like much, but swimming in that teaspoon are usually roughly 250 million sperm, the tadpole-like cells that contain a man\’s genetic heritage. But each individual sperm cell takes about three months to grow.",
     link:"http://www.harryfisch.com/the-male-biological-clock.html",
     };
 
@@ -104,21 +104,21 @@ $(document).ready(function() {
     var lightning = {
     equation: function (second,millisecond) {return 45 * (second + millisecond/100);},
     sentence: " lightning strikes have hit the earth.",
-    did:"Did you know  that a lightning flash can heat the air around it to temperatures five times hotter than the sun’s surface.This heat causes surrounding air to rapidly expand and vibrate, which creates the pealing thunder we hear a short time after seeing a lightning flash.",
+    did:"Did you know  that a lightning flash can heat the air around it to temperatures five times hotter than the sun\’s surface.This heat causes surrounding air to rapidly expand and vibrate, which creates the pealing thunder we hear a short time after seeing a lightning flash.",
     link:"http://www.nationalgeographic.com/environment/natural-disasters/lightning/",
     };
 
     var earthquake = {
     equation: function (second, millisecond) { return 5 * (second + (millisecond/100)) / 60;},
     sentence: " earthquakes on earth have occured.",
-    did:"Did you know that an earthquake results from the sudden release of energy in the Earth's lithosphere which creates seismic waves. Earthquakes can be violent enough to toss people around and destroy whole cities.",
+    did:"Did you know that an earthquake results from the sudden release of energy in the Earth\'s lithosphere which creates seismic waves. Earthquakes can be violent enough to toss people around and destroy whole cities.",
     link:"https://en.wikipedia.org/wiki/Earthquake",
     };
 
      var death_rate_US = {
     equation: function (second,millisecond) {return 4 * (second + millisecond / 100);},  
     sentence: " people have died in the US.",
-    did: "Did you know that a country’s population is stable when the fertility rate is equal to replacement rates. These vary by country but globally work out to around 2.1 children per woman.",
+    did: "Did you know that a country\’s population is stable when the fertility rate is equal to replacement rates. These vary by country but globally work out to around 2.1 children per woman.",
     link: "http://brilliantmaps.com/fertility-rates/",
     };
 
@@ -139,7 +139,7 @@ $(document).ready(function() {
     var oil_consumption = {
     equation:function (second,millisecond) {return 1110 * (second + millisecond / 100);}, 
     sentence:" barrels of oil have been consumed.",
-    did: "Did you know that the US has the 10th largest oil reserve in the world. Venezuela has the largest, with 298.35 billion barrels compared to the US’ 33 billion barrels.", 
+    did: "Did you know that the US has the 10th largest oil reserve in the world. Venezuela has the largest, with 298.35 billion barrels compared to the US\’ 33 billion barrels.", 
     link: "https://www.iea.org/about/faqs/oil/",
     };
 
@@ -182,7 +182,7 @@ $(document).ready(function() {
     var woodpecker = {
     equation: function (second,millisecond) {return 20 * (second + millisecond / 100);}, 
     sentence: " is the average amount of times a woodpecker bird has hammered a tree.",
-    did: "Did you know that the woodpecker's strong, pointed beak acts as both a chisel and a crowbar to remove bark and find hiding insects. It has a very long tongue, up to four inches in some species - with a glue-like substance on the tip for catching insects.",
+    did: "Did you know that the woodpecker\'s strong, pointed beak acts as both a chisel and a crowbar to remove bark and find hiding insects. It has a very long tongue, up to four inches in some species - with a glue-like substance on the tip for catching insects.",
     link: "http://www.defenders.org/woodpeckers/basic-facts",
     };
 
