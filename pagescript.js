@@ -47,8 +47,10 @@ $(document).ready(function() {
             stopTimer();
             $("#clock").css("animationPlayState", "paused");
             $("#clock-button").css("animationPlayState", "paused");
-            $("#clock").fadeOut("fast");
-            $("#fact-container").show("slow");
+            $("#clock").fadeOut(1200);
+            setTimeout(function() {
+                $("#fact-container").show(1200);
+            }, 2000);
         }
     });
 
@@ -57,8 +59,10 @@ $(document).ready(function() {
         second = 0;
         millisecond = 0;
         secondstring = "00s ";
-        $("#fact-container").hide("fast");
-        $("#clock").fadeIn("slow");
+        $("#fact-container").hide(1200);
+        setTimeout(function() {
+                $("#clock").fadeIn(1200);;
+            }, 2000);
         $("#clock-button").text("00s 00ms");
     });
 });
